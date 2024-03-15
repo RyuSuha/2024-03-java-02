@@ -14,9 +14,21 @@ public class CompOperator {
         r1 = 10 < 9;
         System.out.println(r1);
 
-        r1 = 10 >= 9;
+        r1 = 10 >= 9; // 이상
         System.out.println(r1);
 
+        r1 = 10 >= 10;
+        System.out.println(r1);
+
+        r1 = 10 <= 10;
+        System.out.println(r1);
+
+        r1 = 10 == 10; // 10은 10과 같니? > true
+        System.out.println(r1);
+
+        r1 = 10 != 10; // 10은 10과 다르니? > false
+        System.out.println(r1);
+        // 느낌표는 대체로 반대, 부정
 
     }
 }
