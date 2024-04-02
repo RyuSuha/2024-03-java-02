@@ -1,4 +1,4 @@
-package com.green.PC;
+package com.green.PCDay4;
 
 public class MissionForLoopStar {
     public static void main(String[] args) {

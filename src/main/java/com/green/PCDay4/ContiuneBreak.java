@@ -1,4 +1,4 @@
-package com.green.PC;
+package com.green.PCDay4;
 
 public class ContiuneBreak {
     public static void main(String[] args) {
@@ -13,7 +13,7 @@ public class ContiuneBreak {
         }
         System.out.println("----------- contiune");
         for(int i=0; i<10; i++) {
-            if(i == 5) { continue; }
+            if(i == 10) { continue; }
             System.out.println(i);
         }
     }

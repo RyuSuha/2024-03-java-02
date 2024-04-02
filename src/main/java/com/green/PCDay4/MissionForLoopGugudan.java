@@ -1,4 +1,4 @@
-package com.green.PC;
+package com.green.PCDay4;
 
 public class MissionForLoopGugudan {
     public static void main(String[] args) {

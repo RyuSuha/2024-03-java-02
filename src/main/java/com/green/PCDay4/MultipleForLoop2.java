@@ -1,4 +1,4 @@
-package com.green.PC;
+package com.green.PCDay4;
 
 public class MultipleForLoop2 {
     public static void main(String[] args) {

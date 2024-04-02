@@ -1,14 +1,16 @@
-package com.green.PC;
+package com.green.PCDay4;
 
 import java.util.Scanner;
-public class DoWhileLoop {
+public class InfinityWhileLoop {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int input = 0;
-        do {
-            System.out.print("숫자를 입력해 주세요. (종료:0) >> ");
+
+        while(true) {
+            System.out.print("숫자를 입력해 주세요. (종료:0( >> ");
             input = scan.nextInt();
-        } while(input != 0);
+            if(input == 0) { break; }
+        }
         System.out.println("--종료--");
     }
 }
