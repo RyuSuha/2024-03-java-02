@@ -26,8 +26,10 @@ class PlayCard implements DeepPlayingCard {
 }
 class PlayCardTest {
     public static void main(String[] args) {
+
         PlayingCard pc = new PlayCard();
         pc.getCardNumber();
+        //pc.getCardKind();
         DeepPlayingCard dpc = (DeepPlayingCard) pc; //형변환(호출하기위함)
         System.out.println("------끝------");
     }

@@ -18,7 +18,7 @@ public class PolyTest2 {
     }
 
     public static void doCrying(Animal ani) { //ani는 변수명
-        ani.crying();
+        //ani.crying();
 
 //        if(ani instanceof Dog) { // 아래와 똑같음
 //            Dog dog = (Dog)ani;
