@@ -15,6 +15,8 @@ public class PolyTest2 {
         doSleep(ani);
 
 
+
+
     }
 
     public static void doCrying(Animal ani) { //ani는 변수명

@@ -12,7 +12,7 @@ public class ShuffleTest {
             arr[i] = i + 5;
         }
         System.out.println("--------------");
-        int i = 0
+        int i = 0;
         for(int val : arr) {
             System.out.println(val);
         }

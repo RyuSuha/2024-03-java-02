@@ -19,6 +19,8 @@ class Time { //캡슐화, 은닉화
     private int hour; //상속을 할 예정이면 protected사용
     private int minute;//private는 상속불가
     private int second;
+    // private 멤버필드에 값 넣는법 : 최초에 생성자를 통해, setter를 통해
+    // 값 빼는법 : getter를 통해
 
     Time(int hour, int minute, int second) {
         this.hour = hour;
